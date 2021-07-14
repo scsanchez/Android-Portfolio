@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise2">
+
+    <EditText
+        android:id="@+id/ex2_text1"
+        android:layout_width="302dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Texto superior"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ex2_text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ex2_button_up"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="20dp"
+        android:text="Subir texto"
+        app:layout_constraintBottom_toTopOf="@+id/ex2_text2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button_back2"
+        android:layout_width="244dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="40dp"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ex2_text2"
+        android:layout_width="302dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="168dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Texto inferior"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button_back2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ex2_button_down"
+        android:layout_width="139dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="20dp"
+        android:text="Bajar texto"
+        app:layout_constraintBottom_toTopOf="@+id/ex2_text2"
+        app:layout_constraintEnd_toStartOf="@+id/ex2_button_up"
+        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

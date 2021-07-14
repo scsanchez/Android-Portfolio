@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="337dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="68dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="36dp"
+            android:layout_height="26dp"
+            app:srcCompat="@drawable/in" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+            android:text="  https://www.linkedin.com/in/sergio-cs/" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="109dp"
+        android:background="@drawable/avatar"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
+
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="340dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="48dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/email" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="sergiocarrascal000@gmail.com" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="339dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="33dp"
+            android:layout_height="31dp"
+            app:srcCompat="@drawable/github" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="199dp"
+            android:layout_height="22dp"
+            android:text="  https://github.com/scsanchez" />
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="314dp"
+        android:layout_height="167dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_ex1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Ejercicio 1" />
+
+            <Button
+                android:id="@+id/button_ex2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ejercicio 2" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_ex3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Ejercicio 3" />
+
+            <Button
+                android:id="@+id/button_ex4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ejercicio 4" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_ex5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Ejercicio 5" />
+
+            <Button
+                android:id="@+id/button_ex6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ejercicio 6" />
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="378dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:text="Sergio Carrascal Sánchez"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
