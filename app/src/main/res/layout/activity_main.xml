@@ -86,7 +86,7 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="199dp"
+            android:layout_width="229dp"
             android:layout_height="22dp"
             android:text="  https://github.com/scsanchez" />
     </TableRow>
