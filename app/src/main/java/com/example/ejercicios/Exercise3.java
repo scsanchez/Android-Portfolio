@@ -10,9 +10,24 @@ import android.widget.EditText;
 
 public class Exercise3 extends AppCompatActivity {
 
-    private double FirstValue, SecondValue;
+    private int FirstValue, SecondValue;
     private EditText resultbox,resultbox1;
-    private Button button1, button2, button3, button4,button5,button6, button7,button8, button9, button0,buttonC,coma, add,subtract,multiply,divide, equal ;
+    private Button button1;
+    private Button button2;
+    private Button button3;
+    private Button button4;
+    private Button button5;
+    private Button button6;
+    private Button button7;
+    private Button button8;
+    private Button button9;
+    private Button button0;
+    private Button buttonC;
+    private Button add;
+    private Button subtract;
+    private Button multiply;
+    private Button divide;
+    private Button equal ;
     private boolean addition, subtraction, multiplication, division;
 
     private Button button_back;
@@ -36,7 +51,6 @@ public class Exercise3 extends AppCompatActivity {
         button9 = (Button) findViewById(R.id.ex3_button9);
         button0 = (Button) findViewById(R.id.ex3_button0);
         buttonC = (Button) findViewById(R.id.ex3_buttonc);
-        coma = (Button) findViewById(R.id.ex3_button_coma);
         add = (Button) findViewById(R.id.ex3_button_add);
         subtract = (Button) findViewById(R.id.ex3_button_subtract);
         multiply = (Button) findViewById(R.id.ex3_button_multiply);
@@ -45,12 +59,6 @@ public class Exercise3 extends AppCompatActivity {
 
         button_back = (Button) findViewById(R.id.button_back3);
 
-        coma.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                resultbox.setText(resultbox.getText() + ".");
-            }
-        });
 
         buttonC.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,7 +78,7 @@ public class Exercise3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String number1 = String.valueOf((int) FirstValue);
-                SecondValue = Double.parseDouble(resultbox.getText() + "");
+                SecondValue = Integer.parseInt(resultbox.getText() + "");
                 String number2 = String.valueOf((int) SecondValue);
                 if (addition == true) {
                     resultbox1.setText(number1 + "+"+ number2);
@@ -79,21 +87,22 @@ public class Exercise3 extends AppCompatActivity {
                 }
                 if (subtraction == true) {
                     resultbox1.setText(number1 + "-"+ number2);
-                    resultbox.setText(FirstValue - SecondValue + "");
+                    resultbox.setText(String.valueOf((int) (FirstValue - SecondValue)));
                     subtraction = false;
                 }
                 if (multiplication == true) {
                     resultbox1.setText(number1 + "*"+ number2);
-                    resultbox.setText(FirstValue * SecondValue + "");
+                    resultbox.setText(String.valueOf((int) (FirstValue * SecondValue)));
                     multiplication = false;
                 }
                 if (division == true) {
                     resultbox1.setText(number1 + "/"+ number2);
-                    resultbox.setText(FirstValue / SecondValue + "");
+                    resultbox.setText(String.valueOf((int) (FirstValue / SecondValue)));
                     division = false;
                 }
             }
         });
+
 
         add.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,7 +111,7 @@ public class Exercise3 extends AppCompatActivity {
                 if (resultbox == null) {
                     resultbox.setText("");
                 } else {
-                    FirstValue = Double.parseDouble(resultbox.getText() + "");
+                    FirstValue = Integer.parseInt(resultbox.getText() + "");
                     addition = true;
                     resultbox.setText(null);
                 }
@@ -116,7 +125,7 @@ public class Exercise3 extends AppCompatActivity {
                 if (resultbox == null) {
                     resultbox.setText("");
                 } else {
-                    FirstValue = Double.parseDouble(resultbox.getText() + "");
+                    FirstValue = Integer.parseInt(resultbox.getText() + "");
                     subtraction = true;
                     resultbox.setText(null);
                 }
@@ -130,7 +139,7 @@ public class Exercise3 extends AppCompatActivity {
                 if (resultbox == null) {
                     resultbox.setText("");
                 } else {
-                    FirstValue = Double.parseDouble(resultbox.getText() + "");
+                    FirstValue = Integer.parseInt(resultbox.getText() + "");
                     multiplication = true;
                     resultbox.setText(null);
                 }
@@ -144,7 +153,7 @@ public class Exercise3 extends AppCompatActivity {
                 if (resultbox == null) {
                     resultbox.setText("");
                 } else {
-                    FirstValue = Double.parseDouble(resultbox.getText() + "");
+                    FirstValue = Integer.parseInt(resultbox.getText() + "");
                     division = true;
                     resultbox.setText(null);
                 }
