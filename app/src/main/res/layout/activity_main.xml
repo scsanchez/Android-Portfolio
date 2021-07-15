@@ -24,10 +24,10 @@
             app:srcCompat="@drawable/in" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView_linkedin"
             android:layout_width="259dp"
             android:layout_height="wrap_content"
-            android:text="  https://www.linkedin.com/in/sergio-cs/" />
+            android:text="@string/linktolinkedin" />
     </TableRow>
 
     <ImageView
@@ -60,11 +60,11 @@
             app:srcCompat="@drawable/email" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView_email"
             android:layout_width="209dp"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="sergiocarrascal000@gmail.com" />
+            android:text="@string/linktoemail" />
 
     </TableRow>
 
@@ -85,10 +85,10 @@
             app:srcCompat="@drawable/github" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView_github"
             android:layout_width="229dp"
             android:layout_height="22dp"
-            android:text="  https://github.com/scsanchez" />
+            android:text="@string/linktogithub" />
     </TableRow>
 
     <TableLayout
