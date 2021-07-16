@@ -28,13 +28,15 @@
 
     <TextView
         android:id="@+id/ex1_text2"
-        android:layout_width="339dp"
-        android:layout_height="163dp"
-        android:layout_marginBottom="116dp"
-        android:gravity="center|center_vertical"
+        android:layout_width="334dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="124dp"
+        android:gravity="center_horizontal"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button_back1"
-        tools:layout_editor_absoluteX="36dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/ex1_text1"

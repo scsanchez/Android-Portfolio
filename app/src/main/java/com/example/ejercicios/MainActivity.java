@@ -42,15 +42,14 @@ public class MainActivity extends AppCompatActivity {
         linkedin =(TextView) findViewById(R.id.textView_linkedin) ;
         linkedin.setMovementMethod(LinkMovementMethod.getInstance());
 
-        email =(TextView) findViewById(R.id.textView_email) ;
-        email.setMovementMethod(LinkMovementMethod.getInstance());
+
 
         button_exercise1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent exercise = new Intent(MainActivity.this, Exercise1.class);
                 startActivity(exercise);
-                finish();
+
             }
         });
 
@@ -59,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent exercise = new Intent(MainActivity.this, Exercise2.class);
                 startActivity(exercise);
-                finish();
+
             }
         });
 
@@ -77,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent exercise = new Intent(MainActivity.this, Exercise4.class);
                 startActivity(exercise);
-                finish();
+
             }
         });
 
@@ -86,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent exercise = new Intent(MainActivity.this, Exercise5.class);
                 startActivity(exercise);
-                finish();
+
             }
         });
 
@@ -95,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent exercise = new Intent(MainActivity.this, Exercise6.class);
                 startActivity(exercise);
-                finish();
+
             }
         });
 

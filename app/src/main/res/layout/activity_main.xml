@@ -10,11 +10,10 @@
         android:id="@+id/tableRow8"
         android:layout_width="337dp"
         android:layout_height="54dp"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="84dp"
         android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
@@ -27,6 +26,7 @@
             android:id="@+id/textView_linkedin"
             android:layout_width="259dp"
             android:layout_height="wrap_content"
+            android:textColorLink="#000000"
             android:text="@string/linktolinkedin" />
     </TableRow>
 
@@ -43,52 +43,30 @@
 
 
     <TableRow
-        android:id="@+id/tableRow9"
-        android:layout_width="340dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="48dp"
-        android:gravity="center"
-        app:layout_constraintBottom_toTopOf="@+id/tableRow8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="63dp"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/email" />
-
-        <TextView
-            android:id="@+id/textView_email"
-            android:layout_width="209dp"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/linktoemail" />
-
-    </TableRow>
-
-    <TableRow
         android:id="@+id/tableRow7"
         android:layout_width="339dp"
         android:layout_height="49dp"
+        android:layout_marginBottom="4dp"
         android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/tableRow8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="33dp"
             android:layout_height="31dp"
+            android:layout_marginRight="5dp"
             app:srcCompat="@drawable/github" />
 
         <TextView
             android:id="@+id/textView_github"
-            android:layout_width="229dp"
+            android:layout_width="197dp"
             android:layout_height="22dp"
-            android:text="@string/linktogithub" />
+            android:textColorLink="#000000"
+            android:text="@string/linktogithub"/>
+
     </TableRow>
 
     <TableLayout
@@ -152,7 +130,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="Ejercicio 3" />
+                android:text="Calculadora" />
 
             <Button
                 android:id="@+id/button_ex4"
@@ -172,7 +150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="Ejercicio 5" />
+                android:text="Juegos" />
 
             <Button
                 android:id="@+id/button_ex6"
@@ -184,9 +162,9 @@
 
     <TableRow
         android:id="@+id/tableRow6"
-        android:layout_width="378dp"
-        android:layout_height="72dp"
-        android:layout_marginBottom="52dp"
+        android:layout_width="379dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toTopOf="@+id/tableRow7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
@@ -198,9 +176,9 @@
             android:layout_height="58dp"
             android:gravity="center"
             android:text="Sergio Carrascal Sánchez"
+            android:textColor="#000001"
             android:textSize="30sp"
             android:textStyle="bold" />
-
     </TableRow>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

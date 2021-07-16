@@ -149,7 +149,7 @@ public class Exercise3 extends AppCompatActivity {
         divide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                resultbox1.setText(resultbox.getText()+ " +/");
+                resultbox1.setText(resultbox.getText()+ "  /");
                 if (resultbox == null) {
                     resultbox.setText("");
                 } else {

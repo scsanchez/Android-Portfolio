@@ -6,6 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".Exercise5">
 
+    <TableRow
+        android:id="@+id/tableRow15"
+        android:layout_width="376dp"
+        android:layout_height="179dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="266dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/dices" />
+    </TableRow>
+
     <Button
         android:id="@+id/button_back5"
         android:layout_width="244dp"
@@ -15,4 +34,71 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TableRow
+        android:layout_width="376dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/ex5_textViewmain"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:gravity="center_horizontal"
+            android:text="¡Juegos!"
+            android:textSize="70dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow16"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/ex5_button1"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="100dp"
+            android:text="Juego 1" />
+
+        <Button
+            android:id="@+id/ex5_button2"
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:text="Juego 2" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="394dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/button_back5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/ex5_textViewcoins"
+            android:layout_width="379dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textSize="30sp" />
+    </TableRow>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
