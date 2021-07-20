@@ -35,6 +35,7 @@
         android:layout_width="120dp"
         android:layout_height="109dp"
         android:background="@drawable/avatar"
+        android:contentDescription="Avatar"
         app:layout_constraintBottom_toTopOf="@+id/tableRow6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +59,7 @@
             android:layout_width="33dp"
             android:layout_height="31dp"
             android:layout_marginRight="5dp"
+            android:contentDescription="Github Logo"
             app:srcCompat="@drawable/github" />
 
         <TextView
@@ -107,13 +109,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="Ejercicio 1" />
+                android:text="@string/ex1" />
 
             <Button
                 android:id="@+id/button_ex2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ejercicio 2" />
+                android:text="@string/ex2" />
 
         </TableRow>
 
@@ -130,13 +132,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="Calculadora" />
+                android:text="@string/ex3" />
 
             <Button
                 android:id="@+id/button_ex4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ejercicio 4" />
+                android:text="@string/ex4" />
 
         </TableRow>
 
@@ -150,13 +152,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="Juegos" />
+                android:text="@string/ex5" />
 
             <Button
                 android:id="@+id/button_ex6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Ejercicio 6" />
+                android:text="@string/ex6" />
         </TableRow>
     </TableLayout>
 

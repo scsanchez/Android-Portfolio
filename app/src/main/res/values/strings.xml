@@ -1,15 +1,19 @@
 <resources>
     <string name="app_name">Android Portfolio</string>
     <string name="linktogithub">
-
         <a href="https://github.com/scsanchez">https://github.com/scsanchez</a>
-
     </string>
     <string name="linktolinkedin">
         <a href="https://www.linkedin.com/in/sergio-cs/">https://www.linkedin.com/in/sergio-cs/</a>
-
     </string>
     <string name="linktoemail">
         <a href="sergiocarrascal000@gmail.com">sergiocarrascal000@gmail.com</a>
     </string>
+    <string name="back">Volver</string>
+    <string name="ex1">Ejercicio 1</string>
+    <string name="ex2">Ejercicio 2</string>
+    <string name="ex3">Calculadora</string>
+    <string name="ex4">Ejercicio 4</string>
+    <string name="ex5">Juegos</string>
+    <string name="ex6">Ejercicio 6</string>
 </resources>

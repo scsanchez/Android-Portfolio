@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent exercise = new Intent(MainActivity.this, Exercise3.class);
                 startActivity(exercise);
-                finish();
             }
         });
 

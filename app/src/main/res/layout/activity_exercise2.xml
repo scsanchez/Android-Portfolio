@@ -35,7 +35,7 @@
         android:layout_width="244dp"
         android:layout_height="45dp"
         android:layout_marginBottom="40dp"
-        android:text="Volver"
+        android:text="@string/back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
